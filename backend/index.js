@@ -62,5 +62,7 @@ app.post("/api/edit", upload.single("image"), async (req, res) => {
         });
     }
 });
-
+app.use("/healthz", (req, res) => {
+    res.status(200).send("OK");
+});
 app.listen(3000, () => console.log("Server running on port 3000"));
