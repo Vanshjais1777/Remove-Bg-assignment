@@ -493,5 +493,4 @@ For issues or questions:
 **Happy background removing! 🎉**
 
 Last Updated: November 25, 2025
-#   R e m o v e - B g - a s s i g n m e n t  
- 
+#
