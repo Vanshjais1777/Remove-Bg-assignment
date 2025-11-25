@@ -75,7 +75,7 @@ const Index = () => {
       formData.append("image", uploadedFile);
       formData.append("prompt", "Remove background");
 
-      const response = await fetch("http://localhost:3000/api/edit", {
+      const response = await fetch("https://remove-bg-assignment.onrender.com/api/edit", {
         method: "POST",
         body: formData,
       });
